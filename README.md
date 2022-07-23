@@ -8,7 +8,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/repat/laravel-mysql-enum-values/Check%20&%20fix%20styling?label=code%20style)](https://github.com/repat/laravel-mysql-enum-values/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/repat/laravel-mysql-enum-values.svg?style=flat-square)](https://packagist.org/packages/repat/laravel-mysql-enum-values)
 
-*laravel-mysql-enum-values* is a small Laravel Query Builder [macro](https://tighten.com/blog/the-magic-of-laravel-macros/) that returns the valid values of an [ENUM field for MySQL](https://dev.mysql.com/doc/refman/8.0/en/enum.html). Under the hood it's using this statement:
+**laravel-mysql-enum-values** is a small Laravel Query Builder [macro](https://tighten.com/blog/the-magic-of-laravel-macros/) that returns the valid values of an [ENUM field for MySQL](https://dev.mysql.com/doc/refman/8.0/en/enum.html). Under the hood it's using this statement:
 
 ```sql
 SELECT * FROM information_schema.`COLUMNS` WHERE TABLE_NAME = 'table' AND COLUMN_NAME = 'column'

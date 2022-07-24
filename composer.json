@@ -1,7 +1,7 @@
 {
     "name": "repat/laravel-mysql-enum-values",
     "description": "Small Laravel Query Builder Macro that returns valid values for a MySQL ENUM",
-    "version": "1.0",
+    "version": "0.1",
     "keywords": [
         "repat",
         "laravel",
